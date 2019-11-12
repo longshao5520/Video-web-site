@@ -22,10 +22,6 @@ export class UsersController {
           label:'用户名',
           prop:'username'
         },
-        // {
-        //   label:'课程封面',
-        //   prop:'cover'
-        // },
       ]
     }
   }

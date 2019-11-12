@@ -24,8 +24,6 @@ export default class ResourceList extends Vue{
   data:any = {};
   option:any = {};
   page:any = {
-    // pageSize: 5,
-    // pageSizes: [5, 10],
     total: 0,
   };
   query:any = {

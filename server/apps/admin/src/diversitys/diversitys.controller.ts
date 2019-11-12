@@ -23,10 +23,6 @@ export class DiversitysController {
           label:'分集名称',
           prop:'name'
         },
-        // {
-        //   label:'课程封面',
-        //   prop:'cover'
-        // },
       ]
     }
   }
