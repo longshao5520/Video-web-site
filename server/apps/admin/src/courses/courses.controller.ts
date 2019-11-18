@@ -20,6 +20,7 @@ export class CoursesController {
       title:'视频管理',
       column:[
         {
+          sortable:true,
           label:'课程名称',
           prop:'name'
         },
