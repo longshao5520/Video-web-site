@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
+
 import Home from '../views/Home.vue'
 import Main from '../views/Main.vue'
+import Crud from '../views/Crud.vue'
 
 Vue.use(VueRouter)
 
@@ -11,6 +13,7 @@ const routes: RouteConfig[] = [
     component: Main,
     children: [
       { name: 'home', path: '/', component: Home },
+      { name: 'crud', path: '/:resource/list', component: Crud, props: true },
     ]
   }
 ]

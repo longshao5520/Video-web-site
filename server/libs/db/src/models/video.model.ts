@@ -9,14 +9,14 @@ import { Diversity } from './diversity.model'
   }
 })
 export class Video {
-  @ApiProperty({description: '标题'})
+  @ApiProperty({ description: '标题' })
   @prop()
   title: string
 
-  @ApiProperty({description: '封面'})
+  @ApiProperty({ description: '封面' })
   @prop()
   cover: string
 
-  @arrayProp({itemsRef: 'Diversity'})
-  diversity: Ref<Diversity>[]
+  // @arrayProp({itemsRef: 'Diversity'})
+  // diversity: Ref<Diversity>[]
 }

@@ -9,11 +9,11 @@ import { DiversitysModule } from './diversitys/diversitys.module';
 @Module({
   imports: [
     DbModule,
-    UsersModule,
     VideosModule,
-    DiversitysModule
+    DiversitysModule,
+    UsersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
